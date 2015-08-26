@@ -26,18 +26,53 @@
  <!-- Principal -->
  <div data-role="page" id="principal" >   
   <div data-role="header">
-    <h1>Encabezado</h1>
+    <h1>AHORCADO</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  <div align="center">
+   <div data-role="controlgroup" style="width:45%">
+    <a href="#juego" class="ui-btn ui-btn-corner-all ui-icon-check ui-btn-icon-right">Jugar</a>
+    <a href="#opciones" class="ui-btn ui-btn-corner-all ui-icon-gear ui-btn-icon-right">Opciones</a>
+   </div> <!-- Con esto cerramos el div del controlgroup -->
+  </div> <!-- Con esto cerramos el div del align center -->
+  </div> <!-- Con esto cerramos el div del main -->
+
+ </div>  <!-- Este cierra el div de la pagina principal -->
+ <!-- Principal -->
+
+ <!-- Opciones -->
+ <div data-role="page" id="opciones" >   
+  <div data-role="header">
+    <h1>OPCIONES</h1>
+    <a href="#principal" class="ui-btn-left" data-icon="home">Inicio</a>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <div align="center">
+   <div data-role="controlgroup" style="width:45%">
+    <a href="#" class="ui-btn ui-btn-corner-all ui-icon-audio ui-btn-icon-right">Sonido</a>
+    <a href="#" class="ui-btn ui-btn-corner-all ui-icon-power ui-btn-icon-right">Vibrar</a>
+   </div> <!-- Con esto cerramos el div del controlgroup -->
+  </div> <!-- Con esto cerramos el div del align center -->
+  </div> <!-- Con esto cerramos el div del main -->
+
+ </div>  <!-- Este cierra el div de opciones -->
+ 
+ <!-- Opciones -->
+ 
+  <!-- Juego -->
+ <div data-role="page" id="juego" >   
+  <div data-role="header">
+    <h1>AHORCADO</h1>
   </div>
 
   <div data-role="main" class="ui-content">
     <a href="#" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
   </div>
 
-  <div data-role="footer">
-    <h1>Pie</h1>
-  </div>
  </div>  
- <!-- Principal -->
-
+ <!-- Juego -->
+ 
  </body>
 </html> 
